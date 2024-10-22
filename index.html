@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pinyin and Chinese Characters Matching Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Pinyin and Chinese Characters Matching Game</h1>
+    <div id="game">
+        <div id="columns-container">
+            <div id="pinyin-column" class="column"></div>
+            <div id="character-column" class="column"></div>
+        </div>
+        <button id="reset">Reset</button>
+        <button id="add-words">Add New Words</button>
+    </div>
+    <div id="status"></div>
+    <div id="stats">
+        <p>Time: <span id="time">0</span>s</p>
+        <p>Attempts: <span id="attempts">0</span></p>
+        <p>Score: <span id="score">0</span></p>
+    </div>
+    <div id="final-score" style="display: none;">
+        <h2>Game Over!</h2>
+        <p>Your Final Score: <span id="final-score-value"></span></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
